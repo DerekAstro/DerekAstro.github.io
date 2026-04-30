@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="High-precision light curves from WIRE, Kepler, and TESS, with attention to bright stars, saturated targets, and reusable analysis pipelines." />
+  <title>Space Photometry | Derek L. Buzasi</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="../index.html#top" aria-label="Derek Buzasi home">
+        <span class="brand-mark" aria-hidden="true">DB</span>
+        <span class="brand-text">Derek Buzasi</span>
+      </a>
+      <div class="nav-links">
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#research">Research</a>
+        <a href="../index.html#teaching">Teaching</a>
+        <a href="../index.html#publications">Publications</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section-shell page-hero">
+      <p class="eyebrow">missions &amp; methods</p>
+      <h1>Space Photometry</h1>
+      <p class="subtitle narrow">High-precision light curves from WIRE, Kepler, and TESS, with attention to bright stars, saturated targets, and reusable analysis pipelines.</p>
+      <div class="button-row">
+        <a class="button primary" href="../index.html#research">Back to research cards</a>
+        <a class="button" href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Buzasi%2C%20D%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" rel="noopener">Publications on ADS</a>
+      </div>
+    </section>
+
+    <section class="section-shell detail-layout">
+      <article class="detail-card">
+        <section class="detail-block">
+          <h2>From star trackers to survey missions</h2>
+          <p>
+          Space-based photometry transformed stellar variability studies by providing long, nearly continuous observations from above the atmosphere. WIRE showed that even a star tracker could become a scientifically useful photometer, while Kepler and TESS expanded the scale of precision stellar time-domain astronomy.
+          </p>
+        </section>
+        <section class="detail-block">
+          <h2>TESS and bright stars</h2>
+          <p>
+          TESS is especially valuable for bright nearby stars, but the brightest targets can be saturated and awkward to extract cleanly. A practical research theme is therefore not just finding oscillations, but building reliable workflows for apertures, background treatment, quality flags, contamination, and diagnostics.
+          </p>
+        </section>
+        <section class="detail-block">
+          <h2>Community data products</h2>
+          <p>
+          The TESS asteroseismology community has invested heavily in pipelines and shared data products. This page can link to selected software, notebooks, teaching examples, and project-specific notes on extracting and validating TESS light curves.
+          </p>
+        </section>
+      </article>
+
+      <aside class="detail-sidebar">
+        <h2>Useful links</h2>
+        <div class="link-cards stacked-links">
+          <a class="link-card" href="https://adsabs.harvard.edu/full/2007CoAst.150..326B" target="_blank" rel="noopener">
+            <span>WIRE</span>
+            <strong>Asteroseismology with the WIRE satellite</strong>
+          </a>
+          <a class="link-card" href="https://archive.stsci.edu/hlsp/tasoc" target="_blank" rel="noopener">
+            <span>TASOC</span>
+            <strong>TESS Asteroseismic Science Operations Center archive</strong>
+          </a>
+          <a class="link-card" href="https://tasoc.dk/info/tasc.php" target="_blank" rel="noopener">
+            <span>TASC</span>
+            <strong>TESS Data for Asteroseismology coordination</strong>
+          </a>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year">2026</span> Derek L. Buzasi. <a href="../index.html">Home</a>.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
