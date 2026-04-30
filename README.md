@@ -11,6 +11,7 @@ This folder contains a simple static GitHub Pages site for `https://derekastro.g
 - `research/space-photometry.html` — detail page for WIRE/Kepler/TESS and space photometry.
 - `research/stellar-activity.html` — detail page for rotation, activity, and magnetism.
 - `research/side-quests.html` — flexible page for other projects.
+- `press.html` — low-key page for selected press/interview/public outreach links.
 
 ## Uploading to GitHub using the web interface
 
@@ -26,6 +27,7 @@ If GitHub warns you that `index.html`, `styles.css`, or `README.md` already exis
 
 - Edit homepage text in `index.html`.
 - Edit the longer research descriptions in the HTML files inside the `research/` folder.
+- Edit press/interview links in `press.html`.
 - Edit fonts, colors, spacing, and card layout in `styles.css`.
 
 ## ADS publication link
